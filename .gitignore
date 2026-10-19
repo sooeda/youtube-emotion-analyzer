@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE and OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Model artifacts and caches
+keras_tuner/
+tuner_results/
+*.h5
+*.keras
+*.weights.h5
+
+# Dataset files
+data/*.csv
+
+# Training artifacts
+artifacts/keras_tuner/
+artifacts/*.keras
+artifacts/*.h5
+artifacts/*.weights.h5
+
+# Dataset files
+data/*.csv
+
+# Training artifacts
+artifacts/keras_tuner/
+artifacts/*.keras
+artifacts/*.h5
+artifacts/*.weights.h5

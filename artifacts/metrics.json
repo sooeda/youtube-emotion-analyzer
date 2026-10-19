@@ -1,0 +1,21 @@
+{
+  "baseline_all_labels": {
+    "subset_accuracy": 0.16030534351145037,
+    "micro_f1": 0.5177474757988967,
+    "macro_f1": 0.4680917514587799,
+    "micro_precision": 0.4578424153166421,
+    "micro_recall": 0.595688622754491
+  },
+  "router_validation": {
+    "accuracy": 0.6256817055032227,
+    "macro_f1": 0.566362916965305
+  },
+  "routed_single_multi": {
+    "subset_accuracy": 0.11771795901968662,
+    "micro_f1": 0.4825782344698739,
+    "macro_f1": 0.4242392424393042,
+    "micro_precision": 0.39555895865237367,
+    "micro_recall": 0.618682634730539,
+    "router_accuracy": 0.5680996384089996
+  }
+}

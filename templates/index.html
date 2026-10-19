@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Анализ комментариев YouTube</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main class="wrap">
+    <header><h1>Анализ комментариев YouTube</h1></header>
+    <form id="form">
+      <label for="video-url">Ссылка на видео</label>
+      <div class="controls">
+        <input id="video-url" type="url" placeholder="https://www.youtube.com/watch?v=..." required>
+        <button id="submit" type="submit">Анализировать</button>
+      </div>
+    </form>
+    <p id="status" role="status"></p>
+    <section id="results" hidden>
+      <div class="summary"><strong id="total"></strong><span>комментариев проанализировано</span></div>
+      <canvas id="chart" width="900" height="320"></canvas>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

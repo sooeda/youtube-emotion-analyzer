@@ -1,0 +1,29 @@
+{
+  "approach": "baseline_all_labels",
+  "vectorization": "random_embedding",
+  "thresholds": [
+    0.3282122313976288,
+    0.26393604278564453,
+    0.28222519159317017,
+    0.3295016884803772,
+    0.3466128706932068,
+    0.2147478461265564,
+    0.2533136010169983,
+    0.3471692204475403,
+    0.2856593728065491,
+    0.11903031170368195
+  ],
+  "max_len": 100,
+  "labels": [
+    "neutral",
+    "joy",
+    "sadness",
+    "anger",
+    "enthusiasm",
+    "surprise",
+    "disgust",
+    "fear",
+    "guilt",
+    "shame"
+  ]
+}
